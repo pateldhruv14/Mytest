@@ -1,4 +1,6 @@
 notifications:
   slack: techholding:GqgzZRTshSxSAgjseIza5oRj
+  
   on_success: change # default: always
+  
   on_failure: always # default: always
