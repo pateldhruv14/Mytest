@@ -1,7 +1,6 @@
 notifications:
   slack: techholding:GqgzZRTshSxSAgjseIza5oRj
-  on_success: change # default: always
-  on_failure: always # default: always
+
   template:
       - "%{repository_slug} (%{commit}) : %{message}"
       - "Build details: %{build_url}"
