@@ -2,5 +2,5 @@ notifications:
   slack: techholding:GqgzZRTshSxSAgjseIza5oRj
 
   template:
-      - "%{repository_slug} \n (%{commit}) : %{message}" \n
+      - "%{repository_slug}  (%{commit}) : %{message}"
       - "Build details: %{build_url}"
