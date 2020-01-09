@@ -3,4 +3,5 @@ notifications:
   on_success: change # default: always
   on_failure: always # default: always
   template:
-      - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository_slug}@%{branch} by %{author} %{result} in %{duration}"
+      - "%{repository_slug} (%{commit}) : %{message}"
+      - "Build details: %{build_url}"
