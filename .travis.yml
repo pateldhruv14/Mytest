@@ -1,6 +1,4 @@
 notifications:
   slack: techholding:GqgzZRTshSxSAgjseIza5oRj
-
-  template:
-      - "%{repository_slug}  (%{commit}) : %{message}"
-      - "Build details: %{build_url}"
+    template:
+      - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository_slug}@%{branch} by %{author} %{result} in %{duration}"
